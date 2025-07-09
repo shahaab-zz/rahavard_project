@@ -29,7 +29,7 @@ def home():
 @app.route('/api/nouri')
 def nouri():
     try:
-        response = requests.get(URL, headers=headers, timeout=10)
+        response = requests.get(URL, headers=headers, timeout=40)
         response.raise_for_status()
         data = response.json()
         return jsonify({"status": "✅ موفق", "data": data})
