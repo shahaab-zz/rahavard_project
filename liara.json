@@ -1,0 +1,5 @@
+{
+  "platform": "python",
+  "app": "nouri-proxy",
+  "port": 8000
+}
